@@ -12,7 +12,7 @@ function InfoSec(props) {
     }
     return (
         <>
-            <div>
+            <div className='InfoContainer'>
                 <div style={{width: {LeftSpacer}, height: "20px"}}/>
                 <div className='InfoContainer'>
                     <img src={props.img}/>

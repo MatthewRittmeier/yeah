@@ -17,7 +17,9 @@
 }
 
 .InfoContainer {
-  background-image: red;
+  grid-template-columns: 20%, 60%;
+  float: left
+  width: 100vw;
 }
 
 .App {
