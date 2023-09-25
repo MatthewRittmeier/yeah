@@ -1,14 +1,30 @@
 .TopInfo {
-  background-image: linear-gradient(rgba(200,200,250), rgba(120,120,250));
+  background-image: linear-gradient(rgb(146, 146, 233), rgb(104, 104, 247));
   height: 300px;
   width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(230,230,255, 0.5);
+  border-bottom-width: 5px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.VerticalSpacer {
+  width: 100%;
+  height: 33%;
+}
+
+.InfoContainer {
+  background-image: red;
 }
 
 .App {
   text-align: center;
   height: 300vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(253,253,255), rgba(248,248,255));
+  background-image: linear-gradient(rgba(230,230,255), rgba(253,253,255), rgba(230,230,255));
   overflow-x: hidden;
 }
 
