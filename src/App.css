@@ -1,0 +1,17 @@
+.TopInfo {
+  background-image: linear-gradient(rgba(200,200,250), rgba(120,120,250));
+  height: 300px;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 300vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(253,253,255), rgba(248,248,255));
+  overflow-x: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+}
