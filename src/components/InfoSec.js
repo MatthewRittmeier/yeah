@@ -1,26 +1,21 @@
 import React from 'react'
 
 function InfoSec(props) {
-    let LeftSpacer
-    if (props.left === "true")
+    if (props.left)
     {
-        LeftSpacer = "20%";
+        return (
+            <>
+                <div className='InfoBase'>
+                    <img className='InfoImg' src={props.img}/>
+                    <text className='InfoText'>{props.text}</text>
+                </div>
+            </>
+        )
     }
     else
     {
-        LeftSpacer = "50%";
+
     }
-    return (
-        <>
-            <div className='InfoContainer'>
-                <div style={{width: {LeftSpacer}, height: "20px"}}/>
-                <div className='InfoContainer'>
-                    <img src={props.img}/>
-                    {props.text}
-                </div>
-            </div>
-        </>
-    )
 }
 
 export default InfoSec;
