@@ -5,7 +5,7 @@ function TopInfo() {
         <>
             <div className="TopInfo">
                 <div className="VerticalSpacer"/>
-                    How the SSD changed tech
+                   --- How the SSD changed tech ---
                 <div className="VerticalSpacer"/>
             </div>
         </>
