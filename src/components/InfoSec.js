@@ -12,7 +12,9 @@ function InfoSec(props) {
 
                 <div className='VerticalDisplacer'/>
 
-                <text className='InfoText'>{props.text}</text>
+                <div className='InfoTextContainer'>
+                    <text className='InfoText'>{props.text}</text>
+                </div>
             </div>
         </>
     )
